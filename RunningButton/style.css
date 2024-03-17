@@ -24,10 +24,10 @@ body {
     align-items: center;
     position: relative;
     text-align: center;
-    margin-top: 0; /* Position from the top */
-    left: 0; /* Position from the left */
-    width: 100vw; /* Full width of the viewport */
-    height: 100vh; /* Full height of the viewport */
+    margin-top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
     display: flex;
     justify-content: center;
 }

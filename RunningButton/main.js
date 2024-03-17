@@ -61,8 +61,7 @@ dontClickBTN.onmouseover = function () {
         img.src = "https://gifdb.com/images/high/crying-cat-498-x-498-gif-2dh1nqro85n7i50d.webp";
         img.style.opacity = 1;
     }
-    // Add transition
-    // Increment x or reset it to 1
+
     x = x === 20 ? 1 : x + 1;
 };
 
