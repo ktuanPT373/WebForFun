@@ -1,0 +1,110 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date Invitation</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      position: relative;
+    }
+
+    .text {
+      font-size: 2em;
+      margin: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin: 10px;
+      cursor: pointer;
+      position: absolute;
+    }
+
+    #yes {
+      background-color: green;
+      color: white;
+      left: 20px;
+      top: 20px;
+    }
+
+    #no {
+      background-color: red;
+      color: white;
+      transition: transform 0.5s ease; /* Add transition for smooth movement */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://media4.giphy.com/media/1JmGiBtqTuehfYxuy9/200.webp?cid=790b7611bsup9jup26259hepmolh5lya489pbgf1tqxz5kkj&ep=v1_gifs_search&rid=200.webp&ct=g" alt="Cute Running Cat">
+    <p class="text">Will you go around with me?</p>
+    <div class="buttons">
+      <button id="yes">Yes</button>
+      <button id="no">No</button>
+    </div>
+  </div>
+  <script>
+    const noButton = document.getElementById('no');
+
+    noButton.addEventListener('mouseenter', () => {
+      const randomX = Math.random() * (window.innerWidth - noButton.offsetWidth);
+      const randomY = Math.random() * (window.innerHeight - noButton.offsetHeight);
+      noButton.style.transform = `translate(${randomX}px, ${randomY}px)`;
+    });
+
+    noButton.addEventListener('mouseleave', () => {
+      noButton.style.transform = 'none';
+    });
+  </script>
+</body>
+</html> -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Knopka</title>
+</head>
+<body>
+
+  <div class="vse">
+    <div>
+      <img id="gif" src="https://media4.giphy.com/media/1JmGiBtqTuehfYxuy9/200.webp?cid=790b7611bsup9jup26259hepmolh5lya489pbgf1tqxz5kkj&ep=v1_gifs_search&rid=200.webp&ct=g" alt="Cute Running Cat">
+    </div>
+    <div>
+      <p class="text">Will you go around with me?</p>
+    </div>
+    <div class="buttons">
+      <button id="dontClick" style="position: relative; left: -30px;top:100px;">No</button>
+      <button id="Clickk" style="position: relative; left:30px;top:100px;" >Yes</button>
+    </div>
+  </div>
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
