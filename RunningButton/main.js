@@ -10,7 +10,7 @@ dontClickBTN.onmouseover = function () {
     if (x === 1) {
         dontClickBTN.style.left = "-200px";
         dontClickBTN.style.top = "-300px";
-        dontClickBTN.textContent = "Bam nham roi";
+        dontClickBTN.textContent = "Hinh nhu nham nut roi thi phai ";
         dontClickBTN.style.transition = "0.2s";
 
     } else if (x === 2) {
