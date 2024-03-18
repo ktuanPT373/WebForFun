@@ -1,6 +1,7 @@
 
 let dontClickBTN = document.getElementById('dontClick');
 let img = document.getElementById('gif');
+let text = document.querySelector('.text');
 let clicks = 0
 
 let x = 1
@@ -60,11 +61,11 @@ dontClickBTN.onmouseover = function () {
         dontClickBTN.style.transsition="3s";
         img.src = "https://gifdb.com/images/high/crying-cat-498-x-498-gif-2dh1nqro85n7i50d.webp";
         img.style.opacity = 1;
-    }
+        text.textContent = "See you later :<";
+    } 
 
     x = x === 20 ? 1 : x + 1;
 };
-
 
 dontClickBTN.onclick = function() {
     alert('How? You are a cheater!')

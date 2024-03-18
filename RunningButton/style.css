@@ -58,6 +58,14 @@ button {
 
 }
 
+#dontClick:hover{
+  color:white;
+  background-color: red;
+  border-color: red;
+  transition-duration: 0.05s;
+  transition-timing-function: ease-in-out;
+}
+
 /* #Clickk {
     background-color: green;
     color: green;
